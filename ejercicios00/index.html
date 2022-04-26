@@ -8,6 +8,13 @@
 </head>
 <body>
 
+    <div>
+        <h3> SUMA BASICA </h3>
+        <pre id="result">
+            
+        </pre>
+        
+    </div>
 
 
     <script>
@@ -18,6 +25,7 @@
         let a =5; // variables que puedes ser manipuladas con valores iniciales
         let b =10;
         const suma = a + b; //la contante no puede cambiar
+        document.getElementById("result").innerHTML = "El Resultado es "+suma;
         console.log("El resultado", suma);            
     </script>
 </body>
