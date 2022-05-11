@@ -1,16 +1,19 @@
  let aprobadas=[50, 80, 100, 69, 70, 10]; // [80, 100, 70]
 
-let aprobadasTwo=[90, 90, 50, 45, 100, 80]; // [90, 90, 100, 80]
+let otrasaprobadas=[90, 90, 50, 45, 100, 80]; // [90, 90, 100, 80]
 
-  const result=  aprobadas.filter(function(notas){
-      if(notas > 50 ){
-          return true
-      }   
-});
-console.log(result);
-const resultado= aprobadasTwo.filter(function(notasTwo){
-    if(notasTwo > 50){
-        return 1
+ const resultados = aprobadas.filter((notas)=>{
+    if (notas > 50) {
+        return true
     }
-})
-console.log(resultado);
+});
+
+console.log(resultados);
+
+const resultados2 = otrasaprobadas.filter((notas)=>{
+    if (notas > 50) {
+        return true
+    }
+});
+
+console.log(resultados2);
