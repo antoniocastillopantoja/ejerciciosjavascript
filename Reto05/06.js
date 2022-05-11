@@ -11,10 +11,10 @@ let  inicioDeCiclo=1;
 let finDeCiclo =10;
 
 for (let i = inicioDeCiclo; i <= finDeCiclo; i++) {
-    console.log(i);    
+   
     if ((i % 3) === 0) {console.log('Fizz');}
     if ((i % 5) === 0) {console.log('Buzz');}
-    if (i % 3 ===0) && (i % 5===0) {console.log('FizzBuzz');
+    if (i % 3 ===0 && i % 5===0) {console.log('FizzBuzz');
     } else {console.log(`este numero no es multiplo de 3 y 5 ${i}`);}
 }
 
