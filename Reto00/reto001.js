@@ -1,11 +1,9 @@
-let conjunto=['uno', 2, null, 0];
-
-conjunto.forEach(
-    function (conjunto,index,arreglo){
-        console.log(conjunto);
-        console.log(index);
-        console.log(arreglo);
-    } )
 
 
+let arreglo = ['antonio','roberto', 'luis',1,2];
+arreglo.forEach(
+    function(elementoArray,index){
+        console.log(`el elemento ${index+1}, el contenido es este ${elementoArray}`);
+    }
+)
 
